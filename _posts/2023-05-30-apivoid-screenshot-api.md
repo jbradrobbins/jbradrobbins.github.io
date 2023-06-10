@@ -10,13 +10,13 @@ comments: true
 
 This posts outlines how to utilize the apivoid screenshot api to capture high-quality images of websites.
 
-
+In the first step we will define the apikey and url variable.
 ~~~
 $apikey = ""
 
 $url = 'https://www.cnet.com'
 ~~~
-
+After defining the resource that we would like to caputure we can pass the url object to the apivoid endpoint for processing and define the varible for the results.
 
 ~~~
 $url | ForEach-Object {
