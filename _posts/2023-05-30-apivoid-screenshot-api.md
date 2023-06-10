@@ -47,4 +47,4 @@ And last but not least we open the image file for viewing with the start-process
 start-process $filename
 ~~~
 
-![Screenshot](/assests/img/apivoid-com.png){: .mx-auto.d-block :}
+![Screenshot](/assets/img/apivoid-com.png){: .mx-auto.d-block :}
