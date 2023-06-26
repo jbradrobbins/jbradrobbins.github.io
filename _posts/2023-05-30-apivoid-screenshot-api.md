@@ -14,7 +14,7 @@ In the first step we will define the apikey and url variable.
 ~~~
 $apikey = ""
 
-$url = 'https://www.cnet.com'
+$url = 'https://www.apivoid.com'
 ~~~
 After defining the resource that we would like to capture we can pass the url object to the apivoid endpoint for processing and define the varible for the results.
 
