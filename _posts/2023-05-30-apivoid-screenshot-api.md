@@ -44,7 +44,7 @@ $url | ForEach-Object {
 ~~~
 
 ##### Script Breakdown
-1. Setting the API Key and URL
+Setting the API Key and URL
 
 - At the beginning of the script, you need to set your APIVoid API key and the URL of the website you want to capture.
 ~~~
@@ -53,7 +53,7 @@ $url = 'https://www.apivoid.com/'
 ~~~
 - Replace the placeholder with your actual APIVoid API key.
 
-2. Building the API Request
+Building the API Request
 
 The script constructs the API request URL using the provided URL and API key. The full_page=true parameter ensures that a screenshot of the entire webpage is captured. 
 ~~~
@@ -61,14 +61,14 @@ $deviceuri = "https://endpoint.apivoid.com/screenshot/v1/pay-as-you-go/?key=$api
 
 ~~~
 
-3. Making the API Call
+Making the API Call
 
 The Invoke-RestMethod cmdlet is used to send the API request and store the response in the $apivoidresults variable.
 ~~~
 $apivoidresults = Invoke-RestMethod -Method Get -uri $deviceuri
 
 ~~~
-4. Extracting and Formatting the Domain Name
+Extracting and Formatting the Domain Name
 
 The script extracts the domain name from the URL and formats it by replacing dots (.) with hyphens (-). This formatted domain name is used to create a unique filename for the screenshot.
 ~~~
@@ -76,7 +76,7 @@ $domain = [uri]$url
 $file = $domain.Authority | foreach-object { $_ -replace "\.", "-" }
 
 ~~~
-5. Saving the Screenshot
+Saving the Screenshot
 
 The API response includes the screenshot as a Base64-encoded string. The script converts this string into bytes and saves it as a PNG file in the Downloads folder of the current user.
 ~~~
@@ -87,7 +87,7 @@ $bytes = [Convert]::FromBase64String($base64)
 [IO.File]::WriteAllBytes($filename, $bytes)
 
 ~~~
-6. Checking Website Availability
+Checking Website Availability
 
 Before opening the screenshot, the script checks if the API returned an error indicating that the website has no IP configured. This would mean that the website is not active.
 ~~~
