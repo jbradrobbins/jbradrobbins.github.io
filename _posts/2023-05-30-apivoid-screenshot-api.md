@@ -98,13 +98,6 @@ else{start-process $filename}
 
 ~~~
 
-#### Running the Script
-To run the script, follow these steps:
-
--Save the script to a .ps1 file.
--Open PowerShell as an administrator.
--Execute the script by running .\yourscript.ps1.
-
 #### Use Cases
 This script can be a powerful tool for:
 
