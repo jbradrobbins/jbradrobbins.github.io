@@ -9,14 +9,16 @@ comments: true
 ---
 
 Automating Website Screenshots with PowerShell and APIVoid
+
 In this blog post, we will explore how to automate the process of taking website screenshots using PowerShell and the APIVoid service. This script fetches a screenshot of a specified URL, saves it locally, and opens the image for you to view. Let's break down the code and understand each part of this automation.
 
 Prerequisites
 Before running the script, ensure you have the following:
 
 APIVoid API Key: Sign up at APIVoid to get your API key.
+
 PowerShell: Ensure you are running PowerShell version 5.0 or later.
-PowerShell Script
+
 Here's the complete PowerShell script:
 ~~~
 $apikey = ""
