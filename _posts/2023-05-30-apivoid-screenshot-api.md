@@ -100,8 +100,6 @@ else{start-process $filename}
 
 #### Use Cases
 This script can be a powerful tool for:
-
-- Monitoring Website Uptime: Regularly check the availability of important websites.
 - Capturing Website States: Automate the process of taking screenshots for documentation or security reviews.
 - Reporting: Easily include website screenshots in reports.
 
