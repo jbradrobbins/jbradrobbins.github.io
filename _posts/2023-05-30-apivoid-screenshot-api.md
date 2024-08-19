@@ -101,9 +101,9 @@ else{start-process $filename}
 #### Use Cases
 This script can be a powerful tool for:
 
--Monitoring Website Uptime: Regularly check the availability of important websites.
--Capturing Website States: Automate the process of taking screenshots for documentation or security reviews.
--Reporting: Easily include website screenshots in reports.
+- Monitoring Website Uptime: Regularly check the availability of important websites.
+- Capturing Website States: Automate the process of taking screenshots for documentation or security reviews.
+- Reporting: Easily include website screenshots in reports.
 
 #### Conclusion
 By combining the capabilities of PowerShell with the APIVoid service, you can automate the process of monitoring websites and capturing screenshots. This script can be customized further to suit your needs, such as scheduling it to run at regular intervals or extending it to work with multiple URLs. Start leveraging this script today to streamline your website monitoring tasks!
