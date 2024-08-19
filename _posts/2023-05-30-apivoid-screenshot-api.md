@@ -13,7 +13,7 @@ PowerShell, with its ability to integrate various services and perform automatio
 #### Prerequisites
 Before running the script, ensure you have the following:
 
-- APIVoid API Key: Sign up at APIVoid to obtain your API key.
+- APIVoid API Key: Sign up at [APIVoid](https://apivoid.com) to obtain your API key.
 - PowerShell: Ensure you are using PowerShell version 5.0 or later.
 
 #### Here’s the PowerShell script:
